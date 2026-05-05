@@ -7,7 +7,6 @@ function checkGuess() {
     let attemptsText = document.getElementById("attempts");
 
     attempts++;
-
     if (userGuess === randomNumber) {
         message.textContent = "🎉 Correct! You guessed it!";
         attemptsText.textContent = "Attempts: " + attempts;
